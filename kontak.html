@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Kontak Kami</title>
+  <link rel="stylesheet" href="Style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Rekreasi Seru</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Beranda.html">Beranda <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kegiatan.html">Kegiatan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Galeri.html">Galeri</a>
+                </li>
+                     <li class="nav-item">
+     <a class="nav-link" href="kontak.html">Kontak</a>
+                </li>
+     <li class="nav-item">
+     <a class="nav-link" href="Tentang kami.html">Tentang kami</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  
+  <header>
+    <h1>Kontak Kami</h1>
+  </header>
+  <main>
+    <div class="container">
+      <div>
+        <h2>Formulir Pendaftaran</h2>
+        <form>
+          <div class="form-group">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" id="nama" class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" id="username" class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" id="password" class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="alamat" class="form-label">Alamat</label>
+            <textarea id="alamat" class="form-input"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="no-telepon" class="form-label">No Telepon</label>
+            <input type="text" id="no-telepon" class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="jenis-kelamin" class="form-label">Jenis Kelamin</label>
+            <div>
+              <input type="radio" id="laki-laki" name="jenis-kelamin" value="Laki-laki">
+              <label for="laki-laki">Laki-laki</label>
+            </div>
+            <div>
+              <input type="radio" id="perempuan" name="jenis-kelamin" value="Perempuan">
+              <label for="perempuan">Perempuan</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="jenis-kegiatan" class="form-label">Jenis Kegiatan</label>
+            <select id="jenis-kegiatan" class="form-input">
+              <option value="">Pilih Kegiatan</option>
+              <option value="wisata">Wisata</option>
+              <option value="olah-raga">Olah Raga</option>
+              <option value="seni">Seni</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="destinasi" class="form-label">Destinasi yang Ingin Dikunjungi</label>
+            <div>
+              <input type="checkbox" id="pantai" name="destinasi" value="Pantai">
+              <label for="pantai">Pantai</label>
+            </div>
+            <div>
+              <input type="checkbox" id="gunung" name="destinasi" value="Gunung">
+              <label for="gunung">Gunung</label>
+            </div>
+            <div>
+              <input type="checkbox" id="hutan" name="destinasi" value="Hutan">
+              <label for="hutan">Hutan</label>
+            </div>
+          </div>
+          <button type="submit" class="button">Kirim</button>
+        </form>
+      </div>
+      <div>
+        <h2>Masukkan Saran & Kritik</h2>
+        <form>
+          <div class="form-group">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" id="nama" class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="saran" class="form-label">Saran dan Kritik</label>
+            <textarea id="saran" class="form-input"></textarea>
+          </div>
+          <button type="submit" class="button">Kirim</button>
+        </form>
+      </div>
+    </div>
+    <h2>Lokasi Kantor Kami</h2>
+    <div class="map-container">
+<iframe
+    src="https://www.google.com/maps?q=40551&output=embed"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+</iframe>
+
+<body class="bg-light">
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">REKREASI SERU</h1>
+        <p class="text-center">Kami menyediakan berbagai pilihan kegiatan rekreasi untuk keluarga dan teman-teman. Nikmati liburan tak terlupakan bersama kami!</p>
+
+        <h2 class="text-center mt-5">HUBUNGI KAMI</h2>
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-6">
+                <p class="text-center">Email: <a href="nisanoviyanticaca">nisanoviyanticaca@gmail.com</a></p>
+                <p class="text-center">Telepon: +62 857 2402 9924</p>
+            </div>
+        </div>
+
+        <footer class="text-center mt-5">
+            <p>© 2024 Rekreasi Seru. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+</body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
